@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reverse-part-1</title>
+</head>
+<body>
+	<input id="word">
+    <button type="button" onclick="reverse();">write a word</button>
+    <div id="show"></div>
+	<script type="text/javascript">
+		var text ="reverse me";
+        var textReverse = "";
+        for (var i = text.length - 1; i >= 0; i--) {
+            textReverse +=text[i];
+        }
+        alert(textReverse);
+	</script>
+
+</body>
+</html>
